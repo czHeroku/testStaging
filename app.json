@@ -1,14 +1,17 @@
 {
-  "name": "ReviewApps",
+  "name": "iso-react-docker",
+  "description": "",
   "scripts": {
   },
   "env": {
   },
   "formation": {
+    "web": {
+      "quantity": 1
+    }
   },
   "addons": [
-    "herokuconnect",
-    "heroku-postgresql"
+
   ],
   "buildpacks": [
     {
