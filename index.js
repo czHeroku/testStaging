@@ -3,6 +3,7 @@ var express = require("express"),
     pg = require("pg"),
     path = require("path");
 
+//test//
 /**
  * File upload via AWS S3 / Bucketeer Addon
  * For Amazon Data Center East
@@ -39,6 +40,7 @@ pg.connect(dbString, function(err,client){
 app.set("views", path.join(__dirname, "./app/views"));
 app.set("view engine", "ejs");
 
+// Test Add Pull Request 2～～
 /*
  * Jobs Landing Page
  */
